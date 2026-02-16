@@ -6,40 +6,22 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } f
 
 const projects = [
   {
-    title: "E-Commerce Platform",
-    desc: "A full-featured online store with payment integration, real-time inventory, and admin dashboard.",
-    tech: ["React", "Node.js", "PostgreSQL", "Stripe"],
+    title: "E-Commerce Platform Redesign",
+    desc: "Designed and developed a fully responsive e-commerce website with modern UI/UX principles, resulting in 40% improved user engagement. Implemented WCAG 2.1 AA accessibility and optimized page load times by 60%.",
+    tech: ["React.js", "CSS3", "Responsive Design", "WCAG"],
     color: "from-primary/20 to-accent/20",
   },
   {
-    title: "Task Management App",
-    desc: "Collaborative project management tool with drag-and-drop boards, real-time updates, and team chat.",
-    tech: ["Next.js", "TypeScript", "Supabase", "Tailwind"],
+    title: "Design System Framework",
+    desc: "Created a comprehensive design system in Figma with reusable components, reducing design-to-development time by 50%. Established design documentation and guidelines for consistent brand implementation.",
+    tech: ["Figma", "Design Systems", "UI/UX", "Documentation"],
     color: "from-accent/20 to-primary/20",
   },
   {
-    title: "AI Content Generator",
-    desc: "Smart content creation platform leveraging GPT APIs for blog posts, social media, and marketing copy.",
-    tech: ["React", "Python", "OpenAI", "FastAPI"],
+    title: "Interactive Portfolio Website",
+    desc: "Built a dynamic portfolio showcasing 15+ web development and design projects using React.js. Integrated smooth animations and micro-interactions, achieving 95+ Lighthouse performance score.",
+    tech: ["React.js", "Framer Motion", "Tailwind CSS", "Performance"],
     color: "from-primary/20 to-accent/10",
-  },
-  {
-    title: "Real-time Chat App",
-    desc: "Encrypted messaging application with video calls, file sharing, and group conversations.",
-    tech: ["React", "WebSocket", "Redis", "Docker"],
-    color: "from-accent/10 to-primary/20",
-  },
-  {
-    title: "Analytics Dashboard",
-    desc: "Data visualization platform with custom charts, reporting, and automated insights.",
-    tech: ["Vue.js", "D3.js", "Express", "MongoDB"],
-    color: "from-primary/15 to-accent/15",
-  },
-  {
-    title: "Fitness Tracker",
-    desc: "Health and wellness app with workout logging, progress charts, and social features.",
-    tech: ["React Native", "Firebase", "Charts", "OAuth"],
-    color: "from-accent/15 to-primary/15",
   },
 ];
 

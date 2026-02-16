@@ -29,8 +29,7 @@ const Navbar = () => {
           onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }}
           className="font-heading text-xl font-bold text-gradient"
         >
-          {/* TODO: Replace with your name */}
-          Portfolio
+          Manish
         </a>
 
         {/* Desktop */}

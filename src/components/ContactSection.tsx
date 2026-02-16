@@ -1,6 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef, useState } from "react";
-import { Send, Linkedin, Github, Twitter, Mail, Download } from "lucide-react";
+import { Send, Linkedin, Github, Mail, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -89,17 +89,13 @@ const ContactSection = () => {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="flex items-center justify-center gap-4 mt-8"
           >
-            {/* TODO: Replace with your real social links */}
-            <a href="#" className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center hover:bg-accent hover:text-accent-foreground transition-colors">
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center hover:bg-accent hover:text-accent-foreground transition-colors">
               <Linkedin className="h-5 w-5" />
             </a>
-            <a href="#" className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center hover:bg-accent hover:text-accent-foreground transition-colors">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center hover:bg-accent hover:text-accent-foreground transition-colors">
               <Github className="h-5 w-5" />
             </a>
-            <a href="#" className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center hover:bg-accent hover:text-accent-foreground transition-colors">
-              <Twitter className="h-5 w-5" />
-            </a>
-            <a href="#" className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center hover:bg-accent hover:text-accent-foreground transition-colors">
+            <a href="mailto:manishsapkota365@gmail.com" className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center hover:bg-accent hover:text-accent-foreground transition-colors">
               <Mail className="h-5 w-5" />
             </a>
           </motion.div>

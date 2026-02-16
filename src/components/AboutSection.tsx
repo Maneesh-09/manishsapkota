@@ -4,10 +4,10 @@ import { useRef } from "react";
 import { Code2, Palette, Zap, Users } from "lucide-react";
 
 const strengths = [
-  { icon: Code2, title: "Clean Code", desc: "Writing maintainable, scalable solutions" },
-  { icon: Palette, title: "UI/UX Design", desc: "Creating intuitive, beautiful interfaces" },
-  { icon: Zap, title: "Performance", desc: "Optimizing for speed and efficiency" },
-  { icon: Users, title: "Collaboration", desc: "Working effectively in cross-functional teams" },
+  { icon: Code2, title: "Front-End Dev", desc: "HTML5, CSS3, JavaScript, React.js" },
+  { icon: Palette, title: "UI/UX Design", desc: "Figma, Wireframing, Prototyping, Design Systems" },
+  { icon: Zap, title: "Performance", desc: "Web optimization, lazy loading, code splitting" },
+  { icon: Users, title: "Collaboration", desc: "Cross-functional teams, Agile workflows" },
 ];
 
 const AboutSection = () => {
@@ -36,11 +36,10 @@ const AboutSection = () => {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-lg text-muted-foreground leading-relaxed mb-8 text-center"
           >
-            {/* TODO: Replace with your bio */}
-            I'm a passionate full-stack developer with 5+ years of experience building modern web applications.
-            I specialize in React, TypeScript, and Node.js, and I love creating products that make a real
-            difference. When I'm not coding, you'll find me exploring new technologies, contributing to
-            open-source, or enjoying a good cup of coffee.
+            Results-driven Web Developer and UI/UX Designer with expertise in creating responsive, user-centric
+            digital experiences. Proven ability to rapidly acquire new technologies and deliver high-quality solutions.
+            Strong background in visual design, content creation, and cross-functional collaboration. Currently pursuing
+            a BCA at Tribhuvan University, Kathmandu, Nepal.
           </motion.p>
         </div>
 
