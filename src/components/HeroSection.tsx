@@ -42,7 +42,7 @@ const HeroSection = () => {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="font-heading text-xl sm:text-2xl md:text-3xl text-muted-foreground mb-6"
         >
-          Web Developer | UI/UX Designer | Front-End Specialist
+          UI/UX Designer | Frontend Developer | Design Thinker
         </motion.p>
 
         <motion.p
@@ -51,8 +51,8 @@ const HeroSection = () => {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="max-w-2xl mx-auto text-muted-foreground text-lg mb-10"
         >
-          Results-driven Web Developer and UI/UX Designer with expertise in creating responsive, user-centric
-          digital experiences. Passionate about building innovative products that solve real-world problems at scale.
+          Passionate UI/UX Designer and Frontend Developer with hands-on experience in creating user-centered
+          digital experiences. Seeking opportunities to contribute to innovative projects at leading technology companies.
         </motion.p>
 
         <motion.div

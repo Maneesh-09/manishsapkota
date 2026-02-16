@@ -4,14 +4,36 @@ import { Briefcase } from "lucide-react";
 
 const experiences = [
   {
+    company: "Self-Employed – Personal Projects",
+    role: "UI/UX Designer (Self-Taught)",
+    period: "March 2024 – Present",
+    bullets: [
+      "Designed and prototyped 10+ user interfaces for web and mobile applications using Figma and Adobe XD",
+      "Conducted user research and usability testing to validate design decisions, improving user satisfaction",
+      "Created comprehensive design systems including typography, color schemes, and component libraries",
+      "Developed responsive frontend implementations using HTML5, CSS3, JavaScript, and modern frameworks",
+      "Implemented accessibility best practices (WCAG 2.1) to ensure inclusive design",
+    ],
+  },
+  {
+    company: "Syntecxhub, Kathmandu, Nepal",
+    role: "User Experience Designer",
+    period: "February 2025 – March 2025",
+    bullets: [
+      "Designed intuitive user interfaces for client projects, applying UX research methodologies and design thinking",
+      "Collaborated with cross-functional teams including developers and product managers",
+      "Created user personas, journey maps, and information architecture to inform design strategy",
+      "Delivered pixel-perfect design specifications and assets to development team",
+    ],
+  },
+  {
     company: "Computer Planet, Kathmandu, Nepal",
     role: "Video Editor",
     period: "May 2022 – April 2023",
     bullets: [
-      "Produced and edited 100+ high-quality video content pieces for digital marketing campaigns, increasing client engagement by 35%",
-      "Collaborated with cross-functional teams of designers, marketers, and content creators to deliver projects on tight deadlines",
-      "Implemented efficient workflow processes that reduced production time by 25% while maintaining quality standards",
-      "Managed multiple concurrent projects, demonstrating strong organizational and time management skills",
+      "Produced and edited 100+ high-quality video content pieces for digital marketing campaigns",
+      "Collaborated with cross-functional teams of designers, marketers, and content creators",
+      "Implemented efficient workflow processes that reduced production time by 25%",
       "Trained 3 junior team members on video editing best practices and software tools",
     ],
   },
@@ -66,7 +88,6 @@ const ExperienceSection = () => {
                     {exp.bullets.map((b, bi) => (
                       <li key={bi} className="text-sm text-muted-foreground flex items-start gap-2">
                         <span className="w-1.5 h-1.5 rounded-full bg-accent mt-1.5 shrink-0" />
-                        {b}
                         {b}
                       </li>
                     ))}

@@ -4,33 +4,33 @@ import { Code2, Server, Wrench } from "lucide-react";
 
 const categories = [
   {
-    title: "Frontend",
+    title: "Frontend Development",
     icon: Code2,
     skills: [
       { name: "HTML5 / CSS3", level: 92 },
-      { name: "JavaScript", level: 88 },
-      { name: "React.js", level: 85 },
-      { name: "Responsive Design", level: 90 },
+      { name: "JavaScript (ES6+)", level: 88 },
+      { name: "React.js / TypeScript", level: 85 },
+      { name: "Tailwind CSS / Bootstrap", level: 90 },
     ],
   },
   {
-    title: "Design & Multimedia",
+    title: "Design Tools",
     icon: Server,
     skills: [
-      { name: "Figma / Adobe XD", level: 90 },
-      { name: "Adobe Premiere Pro", level: 82 },
-      { name: "After Effects", level: 75 },
-      { name: "Wireframing / Prototyping", level: 88 },
+      { name: "Figma / Adobe XD", level: 92 },
+      { name: "Sketch / Photoshop", level: 80 },
+      { name: "Prototyping / Wireframing", level: 90 },
+      { name: "Design Systems", level: 85 },
     ],
   },
   {
-    title: "Tools & CMS",
+    title: "Tools & Methods",
     icon: Wrench,
     skills: [
       { name: "Git / GitHub", level: 85 },
-      { name: "WordPress", level: 80 },
-      { name: "Agile / Scrum", level: 78 },
-      { name: "Web Performance", level: 85 },
+      { name: "UX Research / Testing", level: 82 },
+      { name: "Agile / Scrum", level: 80 },
+      { name: "WordPress / SEO", level: 78 },
     ],
   },
 ];

@@ -7,20 +7,20 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } f
 const projects = [
   {
     title: "E-Commerce Platform Redesign",
-    desc: "Designed and developed a fully responsive e-commerce website with modern UI/UX principles, resulting in 40% improved user engagement. Implemented WCAG 2.1 AA accessibility and optimized page load times by 60%.",
-    tech: ["React.js", "CSS3", "Responsive Design", "WCAG"],
+    desc: "Redesigned complete user experience for an e-commerce platform, improving conversion rate with a streamlined checkout flow and enhanced product discovery. Built responsive frontend using React and modern CSS, integrated RESTful APIs and Redux for state management.",
+    tech: ["Figma", "React", "CSS3", "JavaScript", "Redux"],
     color: "from-primary/20 to-accent/20",
   },
   {
-    title: "Design System Framework",
-    desc: "Created a comprehensive design system in Figma with reusable components, reducing design-to-development time by 50%. Established design documentation and guidelines for consistent brand implementation.",
-    tech: ["Figma", "Design Systems", "UI/UX", "Documentation"],
+    title: "SaaS Dashboard Interface",
+    desc: "Designed and developed an analytics dashboard for a SaaS application focused on data visualization and user productivity. Implemented interactive charts with Chart.js and WebSocket real-time updates. Achieved 95+ Lighthouse scores through code splitting and lazy loading.",
+    tech: ["Adobe XD", "Vue.js", "Tailwind CSS", "Chart.js"],
     color: "from-accent/20 to-primary/20",
   },
   {
-    title: "Interactive Portfolio Website",
-    desc: "Built a dynamic portfolio showcasing 15+ web development and design projects using React.js. Integrated smooth animations and micro-interactions, achieving 95+ Lighthouse performance score.",
-    tech: ["React.js", "Framer Motion", "Tailwind CSS", "Performance"],
+    title: "Mobile App Prototype for Healthcare",
+    desc: "Conducted extensive user research with healthcare professionals and patients to identify pain points. Created high-fidelity interactive prototypes for appointment booking, telemedicine, and health tracking features. Presented to stakeholders and received approval for development.",
+    tech: ["Figma", "Prototyping", "User Research", "UX"],
     color: "from-primary/20 to-accent/10",
   },
 ];

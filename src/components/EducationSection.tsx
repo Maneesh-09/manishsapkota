@@ -50,7 +50,7 @@ const EducationSection = () => {
                   <span className="font-medium text-foreground">Major:</span> Information Technology
                 </p>
                 <p className="text-sm text-muted-foreground mt-1">
-                  <span className="font-medium text-foreground">Relevant Coursework:</span> Data Structures, Algorithms, Database Management, Web Technologies
+                  <span className="font-medium text-foreground">Relevant Coursework:</span> Data Structures, Algorithms, Database Management, Software Engineering, Web Technologies
                 </p>
               </div>
             </div>
