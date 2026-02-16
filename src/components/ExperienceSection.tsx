@@ -4,33 +4,15 @@ import { Briefcase } from "lucide-react";
 
 const experiences = [
   {
-    company: "Tech Corp Inc.",
-    role: "Senior Full Stack Developer",
-    period: "2022 – Present",
+    company: "Computer Planet, Kathmandu, Nepal",
+    role: "Video Editor",
+    period: "May 2022 – April 2023",
     bullets: [
-      "Led development of a microservices architecture serving 1M+ users",
-      "Reduced page load times by 40% through performance optimization",
-      "Mentored a team of 5 junior developers",
-    ],
-  },
-  {
-    company: "StartupXYZ",
-    role: "Full Stack Developer",
-    period: "2020 – 2022",
-    bullets: [
-      "Built the core product from MVP to production launch",
-      "Implemented CI/CD pipelines reducing deployment time by 60%",
-      "Integrated third-party APIs for payments and notifications",
-    ],
-  },
-  {
-    company: "Digital Agency Co.",
-    role: "Frontend Developer",
-    period: "2018 – 2020",
-    bullets: [
-      "Developed responsive web apps for 20+ enterprise clients",
-      "Introduced component-based architecture with React",
-      "Improved accessibility scores to WCAG AA compliance",
+      "Produced and edited 100+ high-quality video content pieces for digital marketing campaigns, increasing client engagement by 35%",
+      "Collaborated with cross-functional teams of designers, marketers, and content creators to deliver projects on tight deadlines",
+      "Implemented efficient workflow processes that reduced production time by 25% while maintaining quality standards",
+      "Managed multiple concurrent projects, demonstrating strong organizational and time management skills",
+      "Trained 3 junior team members on video editing best practices and software tools",
     ],
   },
 ];
@@ -84,7 +66,7 @@ const ExperienceSection = () => {
                     {exp.bullets.map((b, bi) => (
                       <li key={bi} className="text-sm text-muted-foreground flex items-start gap-2">
                         <span className="w-1.5 h-1.5 rounded-full bg-accent mt-1.5 shrink-0" />
-                        {/* TODO: Replace with your achievements */}
+                        {b}
                         {b}
                       </li>
                     ))}
