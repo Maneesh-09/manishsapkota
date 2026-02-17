@@ -6,22 +6,25 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } f
 
 const projects = [
   {
-    title: "E-Commerce Platform Redesign",
-    desc: "Redesigned complete user experience for an e-commerce platform, improving conversion rate with a streamlined checkout flow and enhanced product discovery. Built responsive frontend using React and modern CSS, integrated RESTful APIs and Redux for state management.",
-    tech: ["Figma", "React", "CSS3", "JavaScript", "Redux"],
+    title: "Nepal Population Count",
+    desc: "A real-time population statistics tracker for Nepal, showing live population data, growth rates, and demographic trends. Built with a clean dark UI featuring dynamic counters and interactive data visualization.",
+    tech: ["React", "TypeScript", "Tailwind CSS", "API Integration"],
     color: "from-primary/20 to-accent/20",
+    image: "/images/project-nepal-population.png",
   },
   {
-    title: "SaaS Dashboard Interface",
-    desc: "Designed and developed an analytics dashboard for a SaaS application focused on data visualization and user productivity. Implemented interactive charts with Chart.js and WebSocket real-time updates. Achieved 95+ Lighthouse scores through code splitting and lazy loading.",
-    tech: ["Adobe XD", "Vue.js", "Tailwind CSS", "Chart.js"],
+    title: "Digital Voting Nepal",
+    desc: "A secure digital voting platform for Nepal enabling voter verification through National ID. Features include transparent ballot casting, real-time results, and end-to-end encryption for democratic elections.",
+    tech: ["React", "TypeScript", "Authentication", "Security"],
     color: "from-accent/20 to-primary/20",
+    image: "/images/project-digital-voting.png",
   },
   {
-    title: "Mobile App Prototype for Healthcare",
-    desc: "Conducted extensive user research with healthcare professionals and patients to identify pain points. Created high-fidelity interactive prototypes for appointment booking, telemedicine, and health tracking features. Presented to stakeholders and received approval for development.",
-    tech: ["Figma", "Prototyping", "User Research", "UX"],
+    title: "Sapkota Flight",
+    desc: "A flight booking application for domestic and international flights in Nepal. Features include route search, date selection, passenger management, and a beautiful hero section showcasing Nepal's mountain scenery.",
+    tech: ["React", "TypeScript", "Tailwind CSS", "UX Design"],
     color: "from-primary/20 to-accent/10",
+    image: "/images/project-sapkota-flight.png",
   },
 ];
 
@@ -55,12 +58,12 @@ const ProjectsSection = () => {
               onClick={() => setSelected(p)}
               className="glass rounded-2xl overflow-hidden cursor-pointer group hover:-translate-y-2 hover:shadow-xl transition-all duration-300"
             >
-              {/* Placeholder image */}
-              <div className={`h-44 bg-gradient-to-br ${p.color} flex items-center justify-center`}>
-                <span className="font-heading text-lg font-semibold text-muted-foreground/60">
-                  {/* TODO: Add project screenshot */}
-                  Preview
-                </span>
+              <div className="h-44 overflow-hidden">
+                <img
+                  src={p.image}
+                  alt={p.title}
+                  className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-300"
+                />
               </div>
               <div className="p-6">
                 <h3 className="font-heading text-lg font-semibold mb-2 group-hover:text-accent transition-colors">
