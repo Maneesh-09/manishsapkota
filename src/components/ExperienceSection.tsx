@@ -4,37 +4,27 @@ import { Briefcase } from "lucide-react";
 
 const experiences = [
   {
-    company: "Self-Employed – Personal Projects",
-    role: "UI/UX Designer (Self-Taught)",
-    period: "March 2024 – Present",
+    company: "Self-Employed, Kathmandu, Nepal",
+    role: "UI/UX Designer & Frontend Developer",
+    period: "March 2025 – Present",
     bullets: [
-      "Designed and prototyped 10+ user interfaces for web and mobile applications using Figma and Adobe XD",
-      "Conducted user research and usability testing to validate design decisions, improving user satisfaction",
-      "Created comprehensive design systems including typography, color schemes, and component libraries",
-      "Developed responsive frontend implementations using HTML5, CSS3, JavaScript, and modern frameworks",
-      "Implemented accessibility best practices (WCAG 2.1) to ensure inclusive design",
+      "Designed and developed 15+ responsive web applications and landing pages with modern UI/UX principles",
+      "Implemented pixel-perfect designs using React.js, HTML5, CSS3, and JavaScript, achieving 95+ Lighthouse scores",
+      "Conducted end-to-end design processes from user research and persona creation to final implementation",
+      "Leveraged WordPress to build custom themes and plugins for client projects",
+      "Integrated REST APIs and third-party services to enhance functionality and create seamless user experiences",
     ],
   },
   {
-    company: "Syntecxhub, Kathmandu, Nepal",
-    role: "User Experience Designer",
-    period: "February 2025 – March 2025",
+    company: "Syntecxhub, Remote, India",
+    role: "User Experience Designer – Virtual Internship",
+    period: "January 2026 – February 2026",
     bullets: [
-      "Designed intuitive user interfaces for client projects, applying UX research methodologies and design thinking",
-      "Collaborated with cross-functional teams including developers and product managers",
-      "Created user personas, journey maps, and information architecture to inform design strategy",
-      "Delivered pixel-perfect design specifications and assets to development team",
-    ],
-  },
-  {
-    company: "Computer Planet, Kathmandu, Nepal",
-    role: "Video Editor",
-    period: "May 2022 – April 2023",
-    bullets: [
-      "Produced and edited 100+ high-quality video content pieces for digital marketing campaigns",
-      "Collaborated with cross-functional teams of designers, marketers, and content creators",
-      "Implemented efficient workflow processes that reduced production time by 25%",
-      "Trained 3 junior team members on video editing best practices and software tools",
+      "Designed user-centered interfaces for web and mobile applications, improving user engagement",
+      "Collaborated with cross-functional teams to translate business goals into intuitive design solutions",
+      "Created detailed wireframes, interactive prototypes, and high-fidelity mockups using Figma",
+      "Conducted heuristic evaluations and accessibility audits ensuring WCAG 2.1 compliance",
+      "Established and maintained design system components and style guides across multiple product lines",
     ],
   },
 ];
