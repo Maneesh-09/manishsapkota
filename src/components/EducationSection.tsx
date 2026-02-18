@@ -3,9 +3,9 @@ import { useRef } from "react";
 import { GraduationCap, Award } from "lucide-react";
 
 const certifications = [
-  { title: "Learn Figma: UI/UX Design Masterclass From Beginner to Pro", desc: "Comprehensive UI/UX design training" },
+  { title: "FIGMA: Learn Figma – UI/UX Design Masterclass From Beginner to Pro", desc: "Comprehensive UI/UX design training" },
   { title: "CyberSecurity Bootcamp: The Ultimate Beginner's Course", desc: "Security fundamentals and best practices" },
-  { title: "WordPress Web Development for Absolute Beginner Zero to Hero", desc: "Full-stack WordPress development" },
+  { title: "WordPress: Web Development for Absolute Beginner Zero to Hero", desc: "Full-stack WordPress development" },
 ];
 
 const EducationSection = () => {

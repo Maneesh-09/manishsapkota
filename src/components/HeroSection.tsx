@@ -20,11 +20,13 @@ const HeroSection = () => {
           initial={{ scale: 0.8, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 0.5 }}
-          className="mx-auto mb-8 w-28 h-28 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center"
+          className="mx-auto mb-8 w-32 h-32 rounded-full bg-gradient-to-br from-primary to-accent p-1"
         >
-          <span className="text-4xl font-heading font-bold text-primary-foreground">
-            MS
-          </span>
+          <img
+            src="/images/manish-avatar.jpeg"
+            alt="Manish Sapkota"
+            className="w-full h-full rounded-full object-cover"
+          />
         </motion.div>
 
         <motion.h1
@@ -51,8 +53,8 @@ const HeroSection = () => {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="max-w-2xl mx-auto text-muted-foreground text-lg mb-10"
         >
-          Passionate UI/UX Designer and Frontend Developer with hands-on experience in creating user-centered
-          digital experiences. Seeking opportunities to contribute to innovative projects at leading technology companies.
+          Passionate UI/UX Designer and Frontend Developer with expertise in creating intuitive, user-centered
+          digital experiences. Quick learner with hands-on experience in designing scalable interfaces and implementing responsive web applications.
         </motion.p>
 
         <motion.div

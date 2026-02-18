@@ -4,10 +4,10 @@ import { useRef } from "react";
 import { Code2, Palette, Zap, Users } from "lucide-react";
 
 const strengths = [
-  { icon: Code2, title: "Frontend Dev", desc: "HTML5, CSS3, JavaScript, React.js, TypeScript, Tailwind CSS" },
-  { icon: Palette, title: "UI/UX Design", desc: "Figma, Adobe XD, Sketch, Wireframing, Prototyping" },
-  { icon: Zap, title: "Performance", desc: "Lighthouse optimization, code splitting, lazy loading" },
-  { icon: Users, title: "UX Research", desc: "Usability testing, A/B testing, persona development" },
+  { icon: Code2, title: "Frontend Dev", desc: "HTML5, CSS3, JavaScript, React.js, Vue.js, TypeScript, Tailwind CSS" },
+  { icon: Palette, title: "UI/UX Design", desc: "Figma, Adobe XD, Sketch, InVision, Miro, Prototyping" },
+  { icon: Zap, title: "Performance", desc: "Lighthouse optimization, responsive design, SEO, WCAG 2.1" },
+  { icon: Users, title: "UX Research", desc: "Usability testing, A/B testing, persona development, heuristic evaluation" },
 ];
 
 const AboutSection = () => {
@@ -36,10 +36,10 @@ const AboutSection = () => {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-lg text-muted-foreground leading-relaxed mb-8 text-center"
           >
-            Passionate UI/UX Designer and Frontend Developer with hands-on experience in creating user-centered
-            digital experiences. Self-taught professional with strong foundation in modern design principles, frontend
-            technologies, and rapid learning capabilities. Proven ability to translate user needs into intuitive
-            interfaces while maintaining technical excellence. Currently pursuing a BCA at Tribhuvan University, Kathmandu, Nepal.
+            Passionate UI/UX Designer and Frontend Developer with expertise in creating intuitive, user-centered
+            digital experiences. Quick learner with hands-on experience in designing scalable interfaces and implementing
+            responsive web applications. Proven ability to translate complex requirements into elegant design solutions
+            while maintaining technical excellence. Currently pursuing a BCA at Tribhuvan University, Kathmandu, Nepal.
           </motion.p>
         </div>
 
