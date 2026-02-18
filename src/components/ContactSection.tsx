@@ -106,10 +106,11 @@ const ContactSection = () => {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="text-center mt-6"
           >
-            {/* TODO: Replace with your real resume link */}
-            <Button variant="outline" className="border-accent text-accent hover:bg-accent hover:text-accent-foreground">
-              <Download className="mr-2 h-4 w-4" /> Download Resume
-            </Button>
+            <a href="/files/manish-resume.pdf" download="Manish_Sapkota_Resume.pdf">
+              <Button variant="outline" className="border-accent text-accent hover:bg-accent hover:text-accent-foreground">
+                <Download className="mr-2 h-4 w-4" /> Download Resume
+              </Button>
+            </a>
           </motion.div>
         </div>
       </div>
