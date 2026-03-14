@@ -9,8 +9,8 @@ const categories = [
     skills: [
       { name: "HTML5 / CSS3 / SASS", level: 92 },
       { name: "JavaScript / TypeScript", level: 88 },
-      { name: "React.js / Vue.js", level: 85 },
-      { name: "Tailwind CSS / Bootstrap", level: 90 },
+      { name: "React.js", level: 85 },
+      { name: "Bootstrap", level: 90 },
     ],
   },
   {
