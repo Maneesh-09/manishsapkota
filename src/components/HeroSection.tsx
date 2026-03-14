@@ -53,8 +53,8 @@ const HeroSection = () => {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="max-w-2xl mx-auto text-muted-foreground text-lg mb-10"
         >
-          Passionate UI/UX Designer and Frontend Developer with expertise in creating intuitive, user-centered
-          digital experiences. Quick learner with hands-on experience in designing scalable interfaces and implementing responsive web applications.
+          Passionate UI/UX Designer and Frontend developer. Transforming ideas into seamless,
+          engaging designs that enhance user experience and user Interaction.
         </motion.p>
 
         <motion.div
