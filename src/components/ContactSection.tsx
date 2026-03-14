@@ -89,7 +89,7 @@ const ContactSection = () => {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="flex items-center justify-center gap-4 mt-8"
           >
-            <a href="https://linkedin.com/in/manishsapkota" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center hover:bg-accent hover:text-accent-foreground transition-colors">
+            <a href="https://www.linkedin.com/in/manish-sapkota-112371242/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center hover:bg-accent hover:text-accent-foreground transition-colors">
               <Linkedin className="h-5 w-5" />
             </a>
             <a href="https://github.com/Maneesh-09" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center hover:bg-accent hover:text-accent-foreground transition-colors">
