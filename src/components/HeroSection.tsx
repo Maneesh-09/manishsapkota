@@ -16,18 +16,23 @@ const HeroSection = () => {
 
       <div className="container relative z-10 mx-auto px-4 text-center">
         {/* Avatar placeholder */}
-        <motion.div
+        <motion.button
+          type="button"
+          onClick={() => scrollTo("#about")}
+          aria-label="Go to About section"
           initial={{ scale: 0.8, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
           transition={{ duration: 0.5 }}
-          className="mx-auto mb-8 w-32 h-32 rounded-full bg-gradient-to-br from-primary to-accent p-1"
+          className="mx-auto mb-8 w-32 h-32 rounded-full bg-gradient-to-br from-primary to-accent p-1 block cursor-pointer focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 focus:ring-offset-background"
         >
           <img
             src="/images/manish-avatar.jpeg"
             alt="Manish Sapkota"
             className="w-full h-full rounded-full object-cover"
           />
-        </motion.div>
+        </motion.button>
 
         <motion.h1
           initial={{ y: 30, opacity: 0 }}
