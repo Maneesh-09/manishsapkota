@@ -47,6 +47,8 @@ const projects = [
     color: "from-primary/20 to-accent/10",
     image: "/placeholder.svg",
   },
+];
+
 
 
 const ProjectsSection = () => {
