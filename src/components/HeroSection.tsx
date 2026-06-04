@@ -148,7 +148,7 @@ const HeroSection = () => {
             doubleClick={{ mode: "toggle", step: 1.5 }}
             wheel={{ step: 0.15 }}
             pinch={{ step: 5 }}
-            onTransformed={(_, state) =>
+            onTransform={(_, state) =>
               persist({
                 scale: state.scale,
                 positionX: state.positionX,
