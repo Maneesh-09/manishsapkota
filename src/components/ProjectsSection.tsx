@@ -26,7 +26,30 @@ const projects = [
     color: "from-primary/20 to-accent/10",
     image: "/images/project-sapkota-flight.png",
   },
+  {
+    title: "E-Commerce Platform Redesign",
+    desc: "End-to-end UX redesign of a multi-category e-commerce platform. Reworked the product discovery, cart, and checkout flows, introduced a modular design system, and improved conversion through clearer hierarchy and accessible components.",
+    tech: ["Figma", "UX Research", "Design System", "React"],
+    color: "from-primary/20 to-accent/20",
+    image: "/placeholder.svg",
+  },
+  {
+    title: "SaaS Dashboard",
+    desc: "Analytics dashboard for a B2B SaaS product with real-time KPIs, customizable widgets, and role-based views. Focused on information density, responsive layouts, and a calm dark-mode UI for long working sessions.",
+    tech: ["React", "TypeScript", "Data Visualization", "UI/UX"],
+    color: "from-accent/20 to-primary/20",
+    image: "/placeholder.svg",
+  },
+  {
+    title: "Mobile-First Social Platform",
+    desc: "A social platform designed mobile-first with gesture-driven navigation, infinite feeds, and rich media posts. Prioritized performance, offline-friendly states, and an accessible component library across iOS and Android web.",
+    tech: ["React", "Mobile UX", "Prototyping", "Accessibility"],
+    color: "from-primary/20 to-accent/10",
+    image: "/placeholder.svg",
+  },
 ];
+
+
 
 const ProjectsSection = () => {
   const ref = useRef(null);
