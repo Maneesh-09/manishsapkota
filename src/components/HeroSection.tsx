@@ -1,16 +1,55 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { ArrowDown, Send, ZoomIn, ZoomOut, RotateCcw, X } from "lucide-react";
 import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogTitle, DialogDescription } from "@/components/ui/dialog";
 
+const STORAGE_KEY = "hero-avatar-zoom-state";
+
+type ZoomState = { scale: number; positionX: number; positionY: number };
+
+const DEFAULT_STATE: ZoomState = { scale: 1, positionX: 0, positionY: 0 };
+
+const loadState = (): ZoomState => {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (!raw) return DEFAULT_STATE;
+    const parsed = JSON.parse(raw);
+    if (
+      typeof parsed?.scale === "number" &&
+      typeof parsed?.positionX === "number" &&
+      typeof parsed?.positionY === "number"
+    ) {
+      return parsed;
+    }
+  } catch {
+    /* ignore */
+  }
+  return DEFAULT_STATE;
+};
+
 const HeroSection = () => {
   const [open, setOpen] = useState(false);
+  const [zoomState, setZoomState] = useState<ZoomState>(DEFAULT_STATE);
+
+  useEffect(() => {
+    setZoomState(loadState());
+  }, []);
+
+  const persist = (state: ZoomState) => {
+    setZoomState(state);
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    } catch {
+      /* ignore */
+    }
+  };
 
   const scrollTo = (href: string) => {
     document.querySelector(href)?.scrollIntoView({ behavior: "smooth" });
   };
+
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -100,12 +139,22 @@ const HeroSection = () => {
             Zoom and pan the profile photo. Use the controls to zoom in, zoom out, or reset.
           </DialogDescription>
           <TransformWrapper
-            initialScale={1}
+            key={open ? "open" : "closed"}
+            initialScale={zoomState.scale}
+            initialPositionX={zoomState.positionX}
+            initialPositionY={zoomState.positionY}
             minScale={1}
             maxScale={5}
             doubleClick={{ mode: "toggle", step: 1.5 }}
             wheel={{ step: 0.15 }}
             pinch={{ step: 5 }}
+            onTransform={(_, state) =>
+              persist({
+                scale: state.scale,
+                positionX: state.positionX,
+                positionY: state.positionY,
+              })
+            }
           >
             {({ zoomIn, zoomOut, resetTransform }) => (
               <div className="relative">
