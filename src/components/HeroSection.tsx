@@ -139,12 +139,22 @@ const HeroSection = () => {
             Zoom and pan the profile photo. Use the controls to zoom in, zoom out, or reset.
           </DialogDescription>
           <TransformWrapper
-            initialScale={1}
+            key={open ? "open" : "closed"}
+            initialScale={zoomState.scale}
+            initialPositionX={zoomState.positionX}
+            initialPositionY={zoomState.positionY}
             minScale={1}
             maxScale={5}
             doubleClick={{ mode: "toggle", step: 1.5 }}
             wheel={{ step: 0.15 }}
             pinch={{ step: 5 }}
+            onTransformed={(_, state) =>
+              persist({
+                scale: state.scale,
+                positionX: state.positionX,
+                positionY: state.positionY,
+              })
+            }
           >
             {({ zoomIn, zoomOut, resetTransform }) => (
               <div className="relative">
